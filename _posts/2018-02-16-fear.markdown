@@ -1,6 +1,6 @@
 ---
 title: Fear
-date: 2018-02-16 15:21:00 +0000
+date: 2018-02-16 15:21:00 Z
 excerpt: A timeless topic that stops so many people from living their best lives.
   In this episode, we address the elephant in the room and talk about fear, its management,
   and importance in crafting a fulfilling lifestyle.
@@ -9,8 +9,9 @@ duration: '00:52:45'
 album_image: https://media.simplecast.com/episode/image/114464/1518736810-artwork.jpg
 keywords: fear, consciousness, awareness, strength, imagination, suffering, reality,
   independent work, responsibility, emotions, logic, death
-pub_date: 2018-02-16 08:00:00 +0000
+pub_date: 2018-02-16 08:00:00 Z
 layout: post
 image: ''
 ---
+
 A timeless topic that stops so many people from living their best lives. In this episode, we address the elephant in the room and talk about fear, its management, and importance in crafting a fulfilling lifestyle.
