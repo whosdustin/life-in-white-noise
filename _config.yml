@@ -1,23 +1,13 @@
 ---
-# Permalinks
-permalink: pretty
-
-# Setup
-title: 'Life in White Noise'
-tagline: 'Independent work life podcast'
-description: 'Two dudes talking about independent work/life and what it means to them.'
-url: http://lifeinwhitenoise.com
-baseurl: /
-
-author:
-  name: 'Dustin Delatore'
-  url: 'https://twitter.com/whos_dustin'
-
-paginate: 5
-
-# Custom vars
-season: 1
-
+title: Life in White Noise
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 defaults:
 - scope:
     path: ''
@@ -28,3 +18,13 @@ defaults:
     title: ''
     excerpt: ''
     audio: ''
+permalink: pretty
+tagline: Independent work life podcast
+description: Two dudes talking about independent work/life and what it means to them.
+url: http://lifeinwhitenoise.com
+baseurl: "/"
+author:
+  name: Dustin Delatore
+  url: https://twitter.com/whos_dustin
+paginate: 5
+season: 1
