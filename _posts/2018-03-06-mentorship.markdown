@@ -1,6 +1,6 @@
 ---
 title: Mentorship
-date: 2018-04-02 15:12:00 Z
+date: 2018-03-06 15:12:00 Z
 excerpt: In this episode, we dive deep to discuss mentorship. We try to define it.
   We try to explain what it is and what it isn't.
 audio: https://audio.simplecast.com/76a7f30c.mp3
