@@ -1,22 +1,22 @@
 
 # Permalinks
-permalink:        pretty
+permalink: pretty
 
 # Setup
-title:            Life in White Noise
-tagline:          'Independent work life podcast'
-description:      'Two dudes talking about independent work/life and what it means to them.'
-url:              http://lifeinwhitenoise.com
-baseurl:          /
+title: 'Life in White Noise'
+tagline: 'Independent work life podcast'
+description: 'Two dudes talking about independent work/life and what it means to them.'
+url: http://lifeinwhitenoise.com
+baseurl: /
 
 author:
-  name:           'Dustin Delatore'
-  url:            https://twitter.com/whos_dustin
+  name: 'Dustin Delatore'
+  url: 'https://twitter.com/whos_dustin'
 
-paginate:         5
+paginate: 5
 
 # Custom vars
-season:          1
+season: 1
 
 defaults:
 - scope:
