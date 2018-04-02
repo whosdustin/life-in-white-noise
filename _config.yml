@@ -14,8 +14,8 @@ defaults:
     type: posts
   values:
     layout: post
+    image: ''
     title: ''
-    date: ''
     excerpt: ''
     audio: ''
     duration: ''
