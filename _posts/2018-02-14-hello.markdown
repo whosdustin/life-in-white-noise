@@ -1,6 +1,6 @@
 ---
 title: Hello!
-date: 2018-04-02 15:24:00 Z
+date: 2018-02-14 15:24:00 Z
 excerpt: Welcome to the Life in White Noise, a podcast about independent work, freedom
   and lifestyle design.
 audio: https://audio.simplecast.com/bdd11db0.mp3
