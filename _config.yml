@@ -14,10 +14,14 @@ defaults:
     type: posts
   values:
     layout: post
-    image: ''
     title: ''
+    date: ''
     excerpt: ''
     audio: ''
+    duration: ''
+    album_image: ''
+    keywords: ''
+    pub_date: ''
 permalink: pretty
 tagline: Independent work life podcast
 description: Two dudes talking about independent work/life and what it means to them.
