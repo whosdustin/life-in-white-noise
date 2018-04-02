@@ -56,8 +56,8 @@ html {
 .sidebar {
   text-align: center;
   padding: 2rem 1rem;
-  color: rgba(255,255,255,.5);
-  background: linear-gradient(to top right, #0096aa, #31006f);
+  color: rgba(0,0,0,.5);
+  background: #f9f9f9;
 }
 @media (min-width: 48em) {
   .sidebar {
@@ -72,7 +72,7 @@ html {
 
 /* Sidebar links */
 .sidebar a {
-  color: #fff;
+  color: #ff9e6d;
 }
 
 /* About section */

@@ -1,0 +1,33 @@
+.plyr {
+  // background: linear-gradient(to right, #2e1b46, #ba2454);
+  // border-radius: 10px;
+  // box-shadow: 0 6px 20px rgba(0,0,0,0.3)
+}
+.plyr--audio .plyr__controls {
+  background: transparent;
+  padding: 1rem;
+}
+.plyr--full-ui input[type=range] {
+  color: #ba2454;
+}
+
+.plyr__time {
+  color: #ba2454;
+}
+
+.plyr--audio {
+  .plyr__control {
+    border: solid 2px transparent;
+    border-radius: 50%;
+    svg.icon {
+      &--pressed,
+      &--not-pressed {
+        fill: #ba2454;
+      }
+    }
+    &:hover {
+      background: transparent;
+      border-color: #ba2454;
+    }
+  }
+}

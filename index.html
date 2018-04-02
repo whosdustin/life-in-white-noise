@@ -7,16 +7,20 @@ layout: default
   {% for post in paginator.posts %}
   <div class="post">
 
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+    <div class="body">
+      <h1 class="post-title">
+        <a href="{{ post.url }}">
+          {{ post.title }}
+        </a>
+      </h1>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-    <span class="post-date">{{ post.duration }}</span>
+      <div class="meta">
+        <span class="post-date"><i data-feather="calendar" aria-hidden="true"></i>{{ post.date | date_to_string }}</span>
+        <span class="post-date"><i data-feather="watch" aria-hidden="true"></i>{{ post.duration }}</span>
+      </div>
 
-    {{ post.excerpt }}
+      {{ post.excerpt }}
+    </div>
 
     {% if post.audio != '' %}
     <audio class="js-player" controls>
