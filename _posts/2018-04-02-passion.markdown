@@ -1,13 +1,13 @@
 ---
 title: Passion
-date: 2018-04-02 13:38:28.389000000 Z
+date: 2018-04-02 13:38:00 Z
+excerpt: How do you find your passion? What is it after all and why there's so much
+  more about it you need to know.
+audio: https://embed.simplecast.com/92df0980
 duration: '00:58:59'
 album_image: https://media.simplecast.com/episode/image/125017/1521121175-artwork.jpg
 keywords: life in white noise, white noise, lifestyle design, independent work, passion,
   curiosity, process, suffering, questions, transformation, evolution, craft, love
-pub_date: Wed, 14 Mar 2018 03:09:00 -0700
-audio: https://audio.simplecast.com/92df0980.mp3
-excerpt: How do you find your passion? What is it after all and why there's so much
-  more about it you need to know.
+pub_date: 2018-03-14 03:09:00 Z
 ---
 
