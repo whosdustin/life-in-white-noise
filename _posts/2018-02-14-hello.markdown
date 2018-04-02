@@ -1,6 +1,6 @@
 ---
 title: Hello!
-date: 2018-02-14 15:24:00 Z
+date: 2018-02-14 15:24:00 +0000
 excerpt: Welcome to the Life in White Noise, a podcast about independent work, freedom
   and lifestyle design.
 audio: https://audio.simplecast.com/bdd11db0.mp3
@@ -8,6 +8,6 @@ duration: '00:52:48'
 album_image: https://media.simplecast.com/episode/image/114557/1518804756-artwork.jpg
 keywords: life in white noise, white noise, lifestyle design, independent work, nomad
   cruise, freedom, choice, career, travel
-pub_date: 2018-02-14 08:00:00 Z
+pub_date: 2018-02-14 08:00:00 +0000
 ---
 
