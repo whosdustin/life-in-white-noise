@@ -11,5 +11,8 @@
       {{ content }}
     </div>
 
+    <script src="https://cdn.plyr.io/3.0.11/plyr.js"></script>
+    <script>
+      const players = Array.from(document.querySelectorAll('.js-player')).map(player => new Plyr(player));</script>
   </body>
 </html>
