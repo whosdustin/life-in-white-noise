@@ -1,4 +1,4 @@
-
+---
 # Permalinks
 permalink: pretty
 
@@ -20,7 +20,7 @@ season: 1
 
 defaults:
 - scope:
-  path: ''
+    path: ''
     type: posts
   values:
     layout: post
