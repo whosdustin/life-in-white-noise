@@ -2,11 +2,13 @@
 layout: page
 ---
 
+{{ content }}
+
 <div class="about">
   {% for host in page.hosts %}
 
   <div class="cell">
-    <img class="img-album" src="{{ host.image | prepend: site.baseurl | prepend: site.url }}" alt="{{ host.name }}">
+    <img class="rounded m-0" src="{{ host.image | prepend: site.baseurl | prepend: site.url }}" alt="{{ host.name }}">
     <h3>{{ host.name }}</h3>
     <a class="badge" href="https://twitter.com/{{ host.twitter }}" title="Follow {{ host.name }} on Twitter">
       <i data-feather="twitter" aria-hidden="true"></i>
