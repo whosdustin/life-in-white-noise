@@ -1,6 +1,6 @@
 ---
 title: About
-date: 2018-04-03 06:18:35 +0000
+date: 2018-04-03 06:18:35 Z
 hosts:
 - name: Tomas Lau
   twitter: tomaslau
@@ -9,6 +9,7 @@ hosts:
   twitter: whos_dustin
   image: "/uploads/2018/04/03/aoIVvnAN_400x400-2.jpg"
 ---
+
 <div class="about">
   {% for host in page.hosts %}
 
