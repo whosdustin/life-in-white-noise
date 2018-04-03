@@ -1,6 +1,6 @@
 ---
 title: About
-date: 2018-04-03 06:18:35 +0000
+date: 2018-04-03 06:18:35 Z
 hosts:
 - name: Tomas Lau
   twitter: tomaslau
@@ -10,6 +10,7 @@ hosts:
   image: "/uploads/2018/04/03/aoIVvnAN_400x400.jpg"
 layout: about
 ---
+
 Tomas and Dustin met digitally during a digital presence mastermind. Which led them both to meeting in real life on the [Nomad Cruise](https://nomadcruise.com "Nomad Cruise"). During the 8 day conference across the Atlantic, the two of them swapped their life stories and experiences in the world of lifestyle engineering. 
 
 On board the ship during a heated conversation about nothing, Dustin and Tomas (along with a few other friends) assembled the Life in White Noise Podcast.
