@@ -1,6 +1,6 @@
 ---
 title: About
-date: 2018-04-03 06:18:35 +0000
+date: 2018-04-03 06:18:35 Z
 hosts:
 - name: Tomas Lau
   twitter: tomaslau
@@ -10,6 +10,7 @@ hosts:
   image: "/uploads/2018/04/03/aoIVvnAN_400x400.jpg"
 layout: about
 ---
+
 [Tomas Laurinavicius](https://tomaslau.com "TomasLau.com") is a lifestyle entrepreneur and blogger from Lithuania. He helps people build lifestyle businesses, develop rock-solid work ethic  
 and design high-output lifestyles.
 
