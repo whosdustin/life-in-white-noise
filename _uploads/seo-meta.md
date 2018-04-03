@@ -1,6 +1,6 @@
 ---
 title: Seo Meta
-date: 2018-04-03 02:06:53 +0000
+date: 2018-04-03 02:06:53 Z
 site_title: Life in White Noise
 site_keywords:
 - Independent
