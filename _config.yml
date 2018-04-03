@@ -25,7 +25,7 @@ defaults:
 permalink: pretty
 tagline: Independent work life podcast
 description: Two dudes talking about independent work/life and what it means to them.
-url: https://whosdustin.com
+url: http://lifeinwhitenoise.com
 baseurl: "/"
 author:
   name: Dustin Delatore
