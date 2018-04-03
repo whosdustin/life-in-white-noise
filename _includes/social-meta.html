@@ -1,18 +1,18 @@
-{% if page.title == "Home" %}
-  {% capture page_title %}
-    {{ site.data.seo['site_title'] }} &middot; {{ site.data.seo['tagline'] }}{% endcapture %}
-{% else %}
-  {% capture page_title %}
-    {{ page.title }} &middot; {{ site.data.seo['site_title'] }}{% endcapture %}
-{% endif %}
+{%- if page.title == "Home" -%}
+  {%- capture page_title -%}
+    {{ site.data.seo['site_title'] }} &middot; {{ site.data.seo['tagline'] }}{%- endcapture -%}
+{%- else -%}
+  {%- capture page_title -%}
+    {{ page.title }} &middot; {{ site.data.seo['site_title'] }}{%- endcapture -%}
+{%- endif -%}
 
-{% capture page_url %}{{ site.url }}{{ page.url | prepend: site.baseurl }}{% endcapture %}
-{% capture site_title %}{{ site.data.seo['site_title'] }}{% endcapture %}
-{% capture site_description %}{{ site.data.seo['site_description'] }}{% endcapture %}
-{% capture twitter_image %}
-  {{ site.data.seo['twitter_image'] | prepend: site.baseurl | prepend: site.url }}{% endcapture %}
-{% capture facebook_image %}
-  {{ site.data.seo['facebook_image'] | prepend: site.baseurl | prepend: site.url }}{% endcapture %}
+{%- capture page_url -%}{{ site.url }}{{ page.url | prepend: site.baseurl }}{%- endcapture -%}
+{%- capture site_title -%}{{ site.data.seo['site_title'] }}{%- endcapture -%}
+{%- capture site_description -%}{{ site.data.seo['site_description'] }}{%- endcapture -%}
+{%- capture twitter_image -%}
+  {{ site.data.seo['twitter_image'] | prepend: site.baseurl | prepend: site.url }}{%- endcapture -%}
+{%- capture facebook_image -%}
+  {{ site.data.seo['facebook_image'] | prepend: site.baseurl | prepend: site.url }}{%- endcapture -%}
 
 
 <meta name="twitter:card" content="summary">
@@ -28,5 +28,5 @@
 <meta property="og:site_name" content="{{ site_title }}">
 <meta property="og:url" content="{{ page_url }}" />
 <meta property="og:title" content="{{ page_title }}" />
-<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ seo.site_description }}{% endif %}" />
+<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site_description }}{% endif %}" />
 <meta property="og:image" content="{{ facebook_image }}" />
