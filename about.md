@@ -7,7 +7,8 @@ hosts:
   image: "/uploads/2018/04/03/x1RsGCyH_400x400.jpg"
 - name: Dustin Delatore
   twitter: whos_dustin
-  image: "/uploads/2018/04/03/aoIVvnAN_400x400-2.jpg"
+  image: "/uploads/2018/04/03/aoIVvnAN_400x400.jpg"
+layout: about
 ---
 
 <div class="about">
