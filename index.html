@@ -5,7 +5,7 @@ layout: default
 
 <div class="posts">
   {% for post in paginator.posts %}
-  <div class="post">
+  <div class="post {% if forloop.first %} featured{% endif %}">
 
     <div class="body">
       <h1 class="post-title">
@@ -15,18 +15,24 @@ layout: default
       </h1>
 
       <div class="meta">
-        <span class="post-date"><i data-feather="calendar" aria-hidden="true"></i>{{ post.date | date_to_string }}</span>
-        <span class="post-date"><i data-feather="watch" aria-hidden="true"></i>{{ post.duration }}</span>
+        {%- if forloop.first -%}
+        <span class="post-date">
+          <i data-feather="zap" aria-hidden="true"></i> NEW</span>
+        {%- endif -%}
+        <span class="post-date" title="Released date">
+          <i data-feather="calendar" aria-hidden="true"></i>{{ post.date | date_to_string }}</span>
+        <span class="post-date" title="Duration">
+          <i data-feather="watch" aria-hidden="true"></i>{{ post.duration }}</span>
       </div>
 
       {{ post.excerpt }}
     </div>
 
-    {% if post.audio != '' %}
+    {%- if post.audio != '' and forloop.first -%}
     <audio class="js-player" controls>
       <source src="{{ post.audio }}" type="audio/mpeg">
     </audio>
-    {% endif %}
+    {%- endif -%}
   </div>
   {% endfor %}
 </div>

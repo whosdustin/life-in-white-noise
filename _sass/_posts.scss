@@ -40,6 +40,7 @@
   margin-bottom: 1rem;
   margin-right: 1rem;
   color: #9a9a9a;
+  font-size: 0.9rem;
   svg {
     margin-right: 5px;
   }
@@ -77,5 +78,23 @@
         color: inherit;
       }
     }
+  }
+}
+
+.featured {
+  border-radius: $border-radius;
+  box-shadow: $shadows;
+  .body {
+    padding: 1.5rem;
+    color: #FFF;
+    background: linear-gradient(to top right, #ab0033, #ff9e6d);
+    border-top-left-radius: $border-radius;
+    border-top-right-radius: $border-radius;
+  }
+  .post-title a {
+    color: #FFF;
+  }
+  .post-date {
+    color: rgba(255,255,255,0.8);
   }
 }
