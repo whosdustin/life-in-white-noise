@@ -1,0 +1,16 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.2rem 0.5rem;
+  color: #FFF;
+  text-align: center;
+  text-decoration: none;
+  line-height: 1;
+  font-size: 0.8rem;
+  background: linear-gradient(to top right, #2e1b46, #ba2454);
+  border-radius: 4px;
+  svg {
+    width: 1em;
+    margin-right: 0.2rem;
+  }
+}

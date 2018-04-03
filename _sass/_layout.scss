@@ -2,14 +2,31 @@
 //
 // Styles for managing the structural hierarchy of the site.
 
-.container {
-  max-width: 38rem;
-  padding-left:  1.5rem;
-  padding-right: 1.5rem;
-  margin-left:  auto;
-  margin-right: auto;
-}
+// .container {
+//   max-width: 38rem;
+//   padding-left:  1.5rem;
+//   padding-right: 1.5rem;
+//   margin-left:  auto;
+//   margin-right: auto;
+// }
+//
+// footer {
+//   margin-bottom: 2rem;
+// }
 
-footer {
-  margin-bottom: 2rem;
+.about {
+  display: flex;
+  justify-content: center;
+  margin: 2rem -4%;
+  @media (min-width: 38em) {
+    justify-content: flex-start;
+  }
+  .cell {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 4%;
+    max-width: 260px;
+  }
 }
