@@ -1,0 +1,13 @@
+.sidebar-nav-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media (min-width: 48em) {
+    justify-content: flex-start;
+  }
+
+  a {
+    margin-right: 0.5rem;
+    text-decoration: none;
+  }
+}

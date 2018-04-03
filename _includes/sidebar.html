@@ -27,7 +27,19 @@
         {% endif %}
       {% endfor %}
 
-      <span class="sidebar-nav-item">Currently: Season {{ site.season }}</span>
+      <i class="sidebar-nav-item">Currently: Season {{ site.season }}</i>
+    </nav>
+
+    <nav class="sidebar-nav-icons">
+      <a href="https://itunes.apple.com/us/podcast/life-in-white-noise/id1350447479?mt=2" title="Listen on iTunes">
+        <i data-feather="radio" aria-hidden="true"></i>
+        <span class="sr-only">Listen on iTunes</span>
+      </a>
+
+      <a href="https://rss.simplecast.com/podcasts/4553/rss" title="Subscribe via RSS">
+        <i data-feather="rss" aria-hidden="true"></i>
+        <span class="sr-only">Subscribe via RSS</span>
+      </a>
     </nav>
 
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
