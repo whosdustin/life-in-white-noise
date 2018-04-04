@@ -5,11 +5,13 @@ layout: default
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
   <div class="meta">
+    <span class="post-date"><i data-feather="mic" aria-hidden="true"></i> {{ page.episode | prepend: 'Episode ' }}</span>
     <span class="post-date"><i data-feather="calendar" aria-hidden="true"></i>{{ page.date | date_to_string }}</span>
     <span class="post-date"><i data-feather="watch" aria-hidden="true"></i>{{ page.duration }}</span>
     {%- if page.audio != '' -%}
       <span class="post-date">
-        <a href="{{ page.audio }}" title="Download audio"><i data-feather="download-cloud"></i>Download</a>
+        <a href="{{ page.audio }}" title="Download audio">
+          <i data-feather="download-cloud" aria-hidden="true"></i>Download</a>
       </span>
     {%- endif %}
   </div>
@@ -31,6 +33,8 @@ layout: default
         <h3>{{ post.title }}</h3>
         </a>
         <small>{{ post.date | date_to_string }}</small>
+        <small>&middot;</small>
+        <small>E {{ post.episode }}</small>
       </li>
     {%- endfor -%}
   </ul>

@@ -19,6 +19,7 @@ layout: default
         <span class="post-date">
           <i data-feather="zap" aria-hidden="true"></i> NEW</span>
         {%- endif -%}
+        <span class="post-date"><i data-feather="mic" aria-hidden="true"></i> {{ post.episode | prepend: 'Episode ' }}</span>
         <span class="post-date" title="Released date">
           <i data-feather="calendar" aria-hidden="true"></i>{{ post.date | date_to_string }}</span>
         <span class="post-date" title="Duration">
