@@ -16,18 +16,29 @@
 }
 
 .plyr--audio {
-  .plyr__control {
-    border: solid 2px transparent;
-    border-radius: 50%;
-    svg.icon {
-      &--pressed,
-      &--not-pressed {
-        fill: #ba2454;
+  .plyr__control,
+  .plyr__control[aria-expanded=true] {
+    background: transparent;
+    svg {
+      fill: #ba2454;
+      &.icon {
+        &--pressed,
+        &--not-pressed {
+          fill: #ba2454;
+        }
       }
     }
     &:hover {
-      background: transparent;
-      border-color: #ba2454;
+      color: #ba2454;
+      background: rgba($link-color, 0.4);
+    }
+  }
+}
+.plyr__menu__container {
+  label.plyr__control {
+    font-size: 0.8em;
+    input[type=radio]:checked+span {
+      background: #ba2454;
     }
   }
 }

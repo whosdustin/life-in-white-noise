@@ -5,9 +5,8 @@ excerpt: Welcome to the Life in White Noise, a podcast about independent work, f
   and lifestyle design.
 audio: https://audio.simplecast.com/bdd11db0.mp3
 duration: '00:52:48'
-album_image: https://media.simplecast.com/episode/image/114557/1518804756-artwork.jpg
+album_image: https://media.simplecast.com/episode/image/114557/1522809212-artwork.jpg
 keywords: life in white noise, white noise, lifestyle design, independent work, nomad
   cruise, freedom, choice, career, travel
 pub_date: 2018-02-14 08:00:00 Z
 ---
-
