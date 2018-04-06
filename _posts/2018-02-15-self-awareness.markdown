@@ -10,8 +10,9 @@ keywords: self-awareness, meditation, awareness, noise, white noise, independent
   freedom, lifestyle, choice, ownership, responsibility
 pub_date: 2018-02-15 08:00:00 Z
 layout: post
-image: ''
 episode: 2
+redirect_from:
+  - /self-awareness/
 ---
 
 In this episode, we dive deep into self-awareness and discuss why it's one of the most important tools you can use to live a better life.

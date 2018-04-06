@@ -11,6 +11,6 @@ keywords: life in white noise, white noise, lifestyle design, independent work, 
 pub_date: 2018-02-14 08:00:00 Z
 episode: 1
 layout: post
-image: ''
+redirect_from:
+  - /hello/
 ---
-

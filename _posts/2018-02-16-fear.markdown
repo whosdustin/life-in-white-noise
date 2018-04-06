@@ -11,8 +11,9 @@ keywords: fear, consciousness, awareness, strength, imagination, suffering, real
   independent work, responsibility, emotions, logic, death
 pub_date: 2018-02-16 08:00:00 Z
 layout: post
-image: ''
 episode: 3
+redirect_from:
+  - /fear/
 ---
 
 A timeless topic that stops so many people from living their best lives. In this episode, we address the elephant in the room and talk about fear, its management, and importance in crafting a fulfilling lifestyle.

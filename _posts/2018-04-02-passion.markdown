@@ -10,8 +10,9 @@ keywords: life in white noise, white noise, lifestyle design, independent work, 
   curiosity, process, suffering, questions, transformation, evolution, craft, love
 pub_date: 2018-03-14 03:09:00 Z
 layout: post
-image: ''
 episode: 5
+redirect_from:
+  - /passion/
 ---
 
 How do you find your passion? What is it after all and why there's so much more about it you need to know.
