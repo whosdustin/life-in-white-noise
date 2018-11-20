@@ -12,5 +12,6 @@ pub_date: 2018-02-14 08:00:00 Z
 episode: 1
 layout: post
 redirect_from:
-  - /hello/
+- "/hello/"
 ---
+

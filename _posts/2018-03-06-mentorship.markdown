@@ -11,7 +11,7 @@ pub_date: 2018-03-06 03:00:00 Z
 layout: post
 episode: 4
 redirect_from:
-  - /mentorship/
+- "/mentorship/"
 ---
 
 In this episode, we dive deep to discuss mentorship. We try to define it. We try to explain what it is and what it isn't.
