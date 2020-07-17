@@ -1,6 +1,6 @@
 ---
 title: Self-Doubt
-date: 2018-05-23 04:00:21.282000000 Z
+date: 2018-05-23 04:00:21 Z
 pub_date: Tue, 22 May 2018 08:00:00 -0700
 keywords: self-doubt, nomad rental, fear, negative thinking, depression, dark places,
   psychology, mindset, diet, fitness, health, mental health, inspiration, life in
